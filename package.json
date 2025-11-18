@@ -1,0 +1,24 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "This will be backend of an e-commerce website and migh also be full stack in future.",
+  "keywords": [
+    "Backend",
+    "code"
+  ],
+  "license": "ISC",
+  "author": "Bishista Pandey",
+  "type": "module ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "dependencies": {
+    "dot-env": "^0.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
